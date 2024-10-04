@@ -14,13 +14,13 @@ devtools::install()
 library(ONLTreatmentPatternsBreastCancer)
 
 connectionDetails <- DatabaseConnector::createConnectionDetails(
-  dbms = NULL,
-  user = NULL,
-  password = NULL,
-  server = NULL,
-  port = NULL,
-  extraSettings = NULL,
-  pathToDriver = NULL
+  dbms = "...",
+  user = "...",
+  password = "...",
+  server = "...",
+  port = "...",
+  extraSettings = "...",
+  pathToDriver = "..."
 )
 
 # Output folder to write output to.
